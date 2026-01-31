@@ -29,13 +29,14 @@ const App = () => {
             <div className="w-12 h-12 bg-white border-2 border-gray-300 rounded-full flex items-center justify-center shadow-md hover:shadow-lg transition-all duration-300">
               {/* Logo space - Add your logo image here */}
              
-<div className="w-12 h-12 rounded-full overflow-hidden bg-gray-200 border-2 border-gray-300">
-  <img
+ <div className="w-10 h-10 bg-white border-2 border-gray-300 rounded-full overflow-hidden flex flex items-center justify-center">
+              {/* Logo space */}
+              <img
     src="/logo.png"
     alt="Nexlly Growth"
     className="w-full h-full object-contain scale-125"
   />
-</div>
+            </div>
 
             </div>
             <div className="flex flex-col">
@@ -338,7 +339,7 @@ const HomePage = () => {
           <div className="text-center p-6 rounded-2xl bg-white/60 backdrop-blur-md border border-gray-200/50 hover:bg-white/90 hover:border-gray-300/70 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 hover:scale-105 group">
             <MessageCircle className="w-10 h-10 text-black mx-auto mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-500" />
             <h3 className="font-bold text-lg mb-2 text-black">Instant Support</h3>
-            <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-black transition-colors">Chat with us on WhatsApp</a>
+            <a href="https://whatsapp.com/channel/0029VbCMe0735fLvUl6O6T2j" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-black transition-colors">Chat with us on WhatsApp</a>
           </div>
         </div>
       </section>
