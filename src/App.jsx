@@ -40,7 +40,7 @@ const App = () => {
 
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-bold text-black">NEXLLY GROWTH</span>
+              <span className="text-xl font-bold text-black">Nexlly Growth</span>
             </div>
           </div>
 
@@ -85,14 +85,27 @@ const HomePage = () => {
             <Sparkles className="w-4 h-4 text-black animate-pulse" />
             <span className="text-sm font-medium text-black">Instagram Growth Studio</span>
           </div>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 animate-fadeInUp leading-tight text-black" style={{animationDelay: '0.1s'}}>
-            POWER YOUR<br />
-            <span className="bg-gradient-to-r from-black to-gray-600 bg-clip-text text-transparent">INSTAGRAM GROWTH</span><br />
-            WITH CONTENT AND AI
-          </h1>
-          <p className="text-lg md:text-xl text-gray-600 mb-12 max-w-3xl mx-auto animate-fadeInUp" style={{animationDelay: '0.2s'}}>
-            Performance-driven strategies that help creators and modern brands grow up to 200%
-          </p>
+          <h1
+  className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl 
+             font-bold mb-6 sm:mb-8 animate-fadeInUp leading-tight text-black"
+  style={{ animationDelay: "0.1s" }}
+>
+  POWER YOUR<br />
+  <span className="bg-gradient-to-r from-black to-gray-600 bg-clip-text text-transparent">
+    INSTAGRAM GROWTH
+  </span>
+  <br />
+  WITH CONTENT AND AI
+</h1>
+
+          <p
+  className="text-base sm:text-lg md:text-xl text-gray-600 mb-10 sm:mb-12 
+             max-w-3xl mx-auto animate-fadeInUp"
+  style={{ animationDelay: "0.2s" }}
+>
+  Performance-driven strategies that help creators and modern brands grow up to 200%
+</p>
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fadeInUp" style={{animationDelay: '0.3s'}}>
             <button onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeK5b-L24OQTLOcXPEzhZolB4PZfcTJhMjrRuFkyYillf-dhw/viewform?usp=header', '_blank')} className="bg-black text-white px-8 py-4 rounded-full font-semibold hover:bg-gray-800 transform hover:scale-105 transition-all duration-300 shadow-lg">
               FREE GROWTH AUDIT
@@ -214,7 +227,7 @@ const HomePage = () => {
   />
 </div>
 
-                <p className="text-red-500 font-semibold text-sm group-hover:scale-105 transition-transform duration-300">⏰ Only valid for 2 days</p>
+                <p className="text-red-500 font-semibold text-sm group-hover:scale-105 transition-transform duration-300">⏰ Only Valid For 2 Days</p>
               </div>
 
               <div className="space-y-4 mb-8">
